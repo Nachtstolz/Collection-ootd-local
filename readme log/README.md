@@ -1,9 +1,11 @@
 # SERVER in COLLECTION-OOTD-CALENDAR
 
 
+
 ## 💡 Github Rules
 
-#### ⚠ `master` branch : 병합 및 배포 용도
+#### ⚠ `master` branch : 병합 및 배포 용도 ⚠
+
 
 ### Branch
 
@@ -17,18 +19,22 @@ ex) ootd 최종 등록하기 / 기존 ootd 보여주기 / 회원 가입 등
 ex) UpperCase
 
 
+
 ### Commit
 
 #### ❗ Base Format ❗
 
-> `YYMMDD 유형(Type) :: 제목(subject)`
-> (Blank Line) : Commit 시 따옴표를 닫지 않고 엔터치면 개행 처리 가능.
-> `본문(body)` : 설명
-> ex)
-> ```git commit -m
-> "220112 Fix :: Template 중 'userDao' 파일 내 sql 쿼리문 수정
->
-> sql 쿼리문 - 기존 작성 쿼리에서 트랜잭션 오류 발견 후 변경"```
+`YYMMDD 유형(Type) :: 제목(subject)`
+(Blank Line) : Commit 시 따옴표를 닫지 않고 엔터치면 개행 처리 가능.
+`본문(body)` : 설명
+ex)
+``` git commit -m
+"220112 Fix :: Template 중 'userDao' 파일 내 sql 쿼리문 수정
+
+sql 쿼리문 - 기존 작성 쿼리에서 트랜잭션 오류 발견 후 변경" ```
+
+
+#### Rules for Format
 
 1. 유형(Type) (종류 : 설명)
     - Feat : 새로운 기능 **추가**
