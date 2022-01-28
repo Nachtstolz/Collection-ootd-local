@@ -25,8 +25,11 @@ ex) UpperCase
 #### ❗ Base Format ❗
 
 `YYMMDD 유형(Type) :: 제목(subject)`
+
 (Blank Line) : Commit 시 따옴표를 닫지 않고 엔터치면 개행 처리 가능.
+
 `본문(body)` : 설명
+
 ex)
 ```
 git commit -m 
