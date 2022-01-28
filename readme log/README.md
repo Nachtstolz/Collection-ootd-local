@@ -28,11 +28,12 @@ ex) UpperCase
 (Blank Line) : Commit 시 따옴표를 닫지 않고 엔터치면 개행 처리 가능.
 `본문(body)` : 설명
 ex)
-``` git commit -m
+```
+git commit -m 
 "220112 Fix :: Template 중 'userDao' 파일 내 sql 쿼리문 수정
 
-sql 쿼리문 - 기존 작성 쿼리에서 트랜잭션 오류 발견 후 변경" ```
-
+sql 쿼리문 - 기존 작성 쿼리에서 트랜잭션 오류 발견 후 변경"
+```
 
 #### Rules for Format
 
